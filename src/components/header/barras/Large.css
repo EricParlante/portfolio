@@ -1,0 +1,23 @@
+.items {
+    display: flex;
+    column-gap: 10px;
+    list-style: none;
+}
+
+.item {
+    color: var(--blanco);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out
+}
+
+.item:hover {
+    border: 1px solid var(--colorPrimario);
+    color: var(--colorPrimario)
+}
+.item:nth-child(1){
+    white-space: nowrap;
+}

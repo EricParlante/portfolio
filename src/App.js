@@ -10,7 +10,7 @@ import Page404 from './pages/Page404';
 function App() {
   return (
     <Router>
-      <Header className="container" />
+      <Header />
       <Routes>
         <Route path="/" element={<Inicio />}/>
         <Route path="/SobreMi" element={<SobreMi />}/>
